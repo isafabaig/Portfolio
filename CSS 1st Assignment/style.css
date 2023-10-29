@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: rgb(86, 95, 104);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.search{
+    height: 20px;
+    width: 150px;
+    margin-right: 350px;
+}
+
+/* ----NAV BAR LINKS---- */
+
+.navbar a{
+    float: right;
+    text-align: center;
+    padding: 0;
+    color: beige;
+    font-size: 13px;
+}
+
+.navbar a:hover{
+    background-color: greenyellow
+}
+
+@media screen and (max-width:500px) 
+.navbar a{
+        float: none;
+        display: block;
+    }
+
+    .umbrella-table{
+        display: flex;
+        align-items: center;
+        width: 600vh;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+
+   .table-one{
+    text-align: center;
+    width: 200px;
+    border: 2px;
+    height: 60vh;
+    background-color: aqua;
+    margin-top: 30px
+   }
+
+   .booking{
+    color: red;
+    font-weight: bold;
+   }
+
+   .table-two{
+    margin-left: 30px;
+    height: 200px;
+    width: 1000px;
+    margin-bottom: 50px;
+   }
+
+   .row-1{
+    background-color: blanchedalmond;
+   }
+
+   .row-3{
+    background-color: blanchedalmond;
+   }
+
+   .headings{
+background-color: rgba(0, 128, 0, 0.767);
+color: white;
+   }
+
+   .confirm{
+    background-color: rgb(14, 83, 6);
+    cursor: pointer;
+   }
+
+   .delete{
+    background-color: rgba(201, 26, 26, 0.836);
+    cursor: pointer;
+   }
